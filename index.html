@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title>GitFav</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  
+    <!-- Scripts -->
+    <script src="./src/index.js" type="module" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <header class="flex">
+        <img src="./assets/gitfav.svg" alt="logo" />
+  
+        <div id="input-name" class="flex">
+          <label for="name" class="sr-only">Digite o nome do usuário GitHub que você deseja adicionar</label>
+          <input type="text" id="name" placeholder="Digite o Github username que quer favoritar" />
+  
+          <button class="flex" id="addButton">
+            <img src="./assets/star.svg" alt="estrela" />
+            <span>favoritar</span>
+          </button>
+        </div>
+      </header>
+  
+      <table>
+        <thead>
+          <tr>
+            <th>Usuário</th>
+            <th>Repositories</th>
+            <th>Followers</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
